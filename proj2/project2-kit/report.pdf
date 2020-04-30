@@ -1,0 +1,8 @@
+Part 1:
+How I implemented the lock version of thread safe malloc
+
+The critical sections of my code are the malloc and free parts. To make them thread safe, I put lock and unlock around my malloc function to avoid the possible race conditions.
+
+How i implemented the nolock version of thread safe malloc
+
+To make my implementation thread safe without locks, I used Thread-Local Storage. Unlike global, if I create a variable in TLS, every thread has its own copy of the variable. So in this way, even if multiple threads enter the critical section at the same time, since the variabls are in TLS, they would all have their own copy of the memory, so they would affect each other.

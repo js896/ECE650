@@ -1,0 +1,11 @@
+Paper title: Edge Computing: Vision and Challenges
+
+Motivation(s): Since more and more data are pushed from the cloud to the edge of the network because of concerns over response time, reliability, limit bindwith, and change of role of edge in the computing diagram, the scenarios where edge computing helps a lot and the challenges and opportunities faced by edge computing need to be discussed.
+
+Contribution(s): The paper first introduced the definition of edge computing, followed by case studies, then presents several opportunities and challenges faced by edge computing.
+
+Approach: The paper first presented several deadlocks and difficulties faced by cloud computing to tell us why we need edge computing. Then it shows us its definition and some case studies to convince us edge computing is helpful and practical. Finally, the paper mentioned about some challengs and opportunities faced by the new technology in order to bring it to the attention of the community
+
+Strengths: The logic flow of this paper is very clear which makes readers feel the edge computing is the best approach to tackle problems faced by cloud computing, the cases studies in this paper are all very convincing that make readers believe the adoption of edge computing is trully neccessary, finally the opportunities and challenges that presented by the paper seem quite tempting that would encourage readers to give more attention to this technology. Also, when introducing some important concepts, the paper used clear figures to help, which makes the understanding of such concepts much easier. The paper also gave detailed examples when selling edge computing over cloud computing and when pointing out the challenges faced by edge computing, which makes it much more convincing.
+
+Weakness: The paper just gave a general definition of edge computing and did not mention about details about how to implement it, for example, what exactly should we use to process data near the data source? When using edge computing instead of cloud computing, do we need to change the protocols that are currently being used? No comparison to other best techonlogies.
